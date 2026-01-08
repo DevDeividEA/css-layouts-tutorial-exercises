@@ -1,3 +1,9 @@
-body{
-    background:blue;
+body {
+	background: blue;
+}
+
+.myDiv {
+	background-color: gray;
+	width: 400px;
+	margin: auto;
 }

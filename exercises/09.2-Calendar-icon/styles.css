@@ -7,7 +7,6 @@
 	font-size: 54px;
 	text-align: center;
 	color: #000;
-
 	border-radius: 3px;
 	position: absolute;
 }
@@ -16,11 +15,9 @@
 	display: block;
 	font-size: 15px;
 	color: #fff;
-	background: #04599a;
+	background: gray;
 	border-bottom-right-radius: 3px;
 	border-bottom-left-radius: 3px;
-
-	position: absolute;
 }
 
 .calendar::before,
@@ -37,24 +34,30 @@
 }
 .calendar::before {
 	left: 11px;
+	top: 3px;
 }
 .calendar::after {
 	right: 11px;
+	top: 3px;
 }
 
 .calendar em::before,
 .calendar em::after {
 	content: "";
 	float: left;
-	margin: 10px;
+	margin: 0px;
 	width: 4px;
 	height: 14px;
-	background: blue;
+	border-radius: 10px;
+	background: gray;
 	z-index: 2;
+	position: absolute;
 }
 .calendar em::before {
+	top: -7px;
 	left: 13px;
 }
 .calendar em::after {
+	top: -7px;
 	right: 13px;
 }

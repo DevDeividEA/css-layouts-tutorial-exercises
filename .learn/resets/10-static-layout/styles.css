@@ -1,27 +1,5 @@
 /* your code here */
 
-.wrapper {
-}
-
-.secondWrapper {
-	display: flex;
-	gap: 10px;
-}
-
-section {
-	width: 100%;
-	margin-right: 10px;
-}
-
-nav {
-	margin-left: 10px;
-}
-
-header {
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
 /**************************************
 DON'T CHANGE ANYTHING AFTER THIS LINE
 **************************************/
